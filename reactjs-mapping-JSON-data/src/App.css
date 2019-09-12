@@ -1,0 +1,71 @@
+.App {
+  text-align: left;
+  font-size: 18px;
+  height: 100vh;
+  padding: 50px; 
+}
+.Appcontainer{
+  display: flex;
+  align-items: center;
+  height: 100vh; 
+  width: 100vw;
+}
+hr{
+  border: 1px dashed #ddd;
+}
+form{
+  padding: 40px !important;
+  border: 1px solid #ccc;
+  width: 450px;
+  margin: 0 auto;
+  box-shadow: 6px 6px #eee;
+  background-color: white;
+  opacity: .7;
+}
+button{
+  padding: 12px 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  border: 0px;
+  border-radius: 2px;
+}
+button:hover{
+  opacity: .8;
+}
+input, select {
+  font-size: 18px;
+  padding: 8px;
+  width: 100%;
+  margin: 15px auto;
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-family: Raleway, sans-serif;
+}
+.red{ color: red; }
+.green{ color: green; }
+
+.infobox{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: yellow;
+  display: none;
+}
+
+/* movie api */
+.movies{
+  padding: 15px;
+  font-size: 20px;
+  border-bottom: 1px solid #ddd;
+}
+.movies:hover{ 
+  color:lightseagreen;
+  cursor: pointer;
+}
+.movie_open{
+  background-color: honeydew;
+  padding: 18px;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+}
