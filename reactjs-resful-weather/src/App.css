@@ -1,0 +1,22 @@
+.App {
+  text-align: left;
+  padding: 80px;
+}
+
+.result{
+  padding-top: 20px;
+}
+
+.result p{
+  border-bottom: 1px dashed #ddd;
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+form{
+  padding-top: 30px;
+}
+
+input, button{
+  border-radius: 2px !important;
+}
